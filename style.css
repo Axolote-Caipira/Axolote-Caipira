@@ -1,0 +1,66 @@
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 165, 0); /* Mudado para um laranja similar ao traje do Homem-Formiga */
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 165, 0); /* Mudado para um laranja similar ao traje do Homem-Formiga */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Sombra para dar um efeito de destaque */
+}
+
+.chamada {
+    background: rgb(80, 80, 80); /* Tom escuro para imitar um ambiente mais sério */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra para melhor legibilidade */
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: rgb(255, 165, 0); /* Laranja semelhante ao traje do Homem-Formiga */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra para melhor legibilidade */
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 0, 0); /* Vermelho para dar destaque ao hover */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
